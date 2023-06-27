@@ -121,8 +121,69 @@ body {
         
       }
       .section-2 {
-
+        .cover-div-2 {
+          max-width: 760px;
+          margin: 0 auto;
+          padding: 20px 5px;
+          text-align: center;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          .sec-2-header {
+            font-size: 1.2em;
+            color: #2C2C2C;
+            margin-bottom: 15px;
+          }
+          .description-date {
+            color: #838383;
+            font-size: 1em;
+          }
+        }
+        .border-div {
+          width: 80%;
+          margin: 0 auto;
+          padding: 6px;
+          border: 1px solid rgba(0, 0, 0, 0.25);
+          display: grid;
+          place-items: center;
+        }
       }
+
+      .section-3 {
+        .sec-3-cover {
+          padding: 3%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .sec-3-intro {
+            .sec-3-header {
+              text-align: center;
+              font-size: 1.2em;
+              font-family: 'lato', Arial, Helvetica, sans-serif;
+              color: #2C2C2C;
+            }
+            .sec-3-divider {
+              width: 30%;
+              height: 2px;
+              background-color: #A04038;
+              margin: 10px auto;
+            }
+            .sec-3-text {
+              font-family: 'Lato', Arial, Helvetica, sans-serif;
+              font-size: 0.9em;
+              color: #838383;
+              text-align: center;
+              margin-bottom: 30px;
+            }
+          }
+          .sec-3-images {
+            display: grid;
+            margin-bottom: 20px;
+            place-items: center;
+            row-gap: 20px;
+          }
+        }
+      }
+
     .section-4 {
       display: flex;
       flex-direction: column;
@@ -142,7 +203,7 @@ body {
           margin-bottom: 10px;
         }
         .seperate-line-2 {
-          
+
           width: 100px;
           height: 2px;
           background-color: #A04038;
@@ -264,6 +325,26 @@ body {
         }
       }
     }
+
+    .section-3 {
+      .sec-3-cover {
+        padding: 40px 0;
+        .sec-3-intro {
+          .sec-3-divider {
+            margin: 15px auto;
+          }
+        }
+        .sec-3-images {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          column-gap: 20px;
+        }
+      }
+    }
+
     .section-5 {
       .license {
         gap: 6%;
