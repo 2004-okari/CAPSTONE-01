@@ -27,31 +27,30 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [PORTFOLIO] <a name="about-project"></a>
+# 📖 [CAPSTONE PROJECT] <a name="about-project"></a>
 
-My PORTFOLIO project in Microverse.
+My CAPSTONE project in Microverse.
 
-**[PORTFLIO]** is a project experience that Microverse offers to help nuture your skills in designing on different screen sizes.  
+**[CAPSTONE]** is a project experience that Microverse offers to help nuture your skills in designing on different screen sizes.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
  1. HTML5
  2. CSS3
+ 3. JavaScript
 
 
 ### Key Features <a name="key-features"></a>
 
-  1. prints out a portfolio webpage
+  1. prints out a webpage for a microsoft summit
   2. It is made to cater for mobile devices and desktops
   3. Introductory page
   4. Links to social profiles
   5. Menu bar that open up to give various options
   6. Preview of the project page
-  7. About section with personal skills
-  8. contact section
-  9. Responsive design
-  10. Popup menu
+  7. About section with a history of the summit
+  8. Responsive design
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -65,7 +64,7 @@ An extension to your browser
 
 Clone this repository to your desired folder:
 
-git clone [https://github.com/2004-okari/MY-PORTFOLIO](https://github.com/2004-okari/MY-PORTFOLIO)
+git clone [CASTONE_001](https://github.com/2004-okari/CAPSTONE-01)
 ### Install
 
 Install this project with:
@@ -87,22 +86,9 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-1: Details modal 
-2: Validate contact form 
-3: Preserve data in the browser 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-##👍 Contributors
-- GitHub: [Lewis Hinga](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=lewisjn-arch)
-- GitHub: [Akorede](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=Akorede3133)
-- Github: [NalianAchei2020](https://github.com/2004-okari/MY-PORTFOLIO/commitauthor=NalianAchei2020)
 
 Feel free to check the [issues page](https://github.com/2004-okari/MY-PORTFOLIO/issues).
 
