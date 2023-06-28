@@ -20,6 +20,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -82,6 +83,12 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Deployment
+
+Deployed the project using github pages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 👤 **2004-okari**
 
 - GitHub: [2004-Okari](https://github.com/2004-okari)
@@ -89,6 +96,11 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+1: Details modal 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
