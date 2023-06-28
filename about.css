@@ -186,6 +186,11 @@ body {
             margin-bottom: 20px;
             place-items: center;
             row-gap: 20px;
+            .about-image {
+              width: 365px;
+              height: 185px;
+              object-fit: cover;
+            }
           }
         }
       }
