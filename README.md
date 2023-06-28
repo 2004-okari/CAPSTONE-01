@@ -90,7 +90,7 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/2004-okari/MY-PORTFOLIO/issues).
+Feel free to check the [issues page](https://github.com/2004-okari/CAPSTONE-01/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
@@ -103,6 +103,8 @@ If you like this project you can star the repository to make it look better.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for giving me all the necessary knowledge i need to make this project.
+
+I would also like to acknowledge [Cindy Shin](https://www.behance.net/adagio07) for the great design and work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
