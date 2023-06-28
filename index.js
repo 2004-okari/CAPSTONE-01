@@ -17,7 +17,7 @@ if (window.innerWidth < 768) {
     body.style.overflow = 'hidden';
     menuSec.style.display = 'block';
     menuSec.style.position = 'absolute';
-    menuSec.style.top = '30%';
+    menuSec.style.top = '200px';
     menuSec.style.left = '50%';
     menuSec.style.transform = 'translate(-50%, -50%)';
     main.style.visibility = 'hidden';
