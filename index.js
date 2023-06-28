@@ -14,6 +14,7 @@ if (window.innerWidth < 768) {
     menu.style.display = 'none';
     navigation.style.boxShadow = 'none';
     body.style.backgroundColor = '#F07F7E';
+    body.style.overflow = 'hidden';
     menuSec.style.display = 'block';
     menuSec.style.position = 'absolute';
     menuSec.style.top = '30%';
@@ -25,6 +26,7 @@ if (window.innerWidth < 768) {
   openButton.addEventListener('click', menuBar);
 
   let closeMenu = () => {
+    body.style.overflow = '';
     menu.style.display = '';
     navigation.style.boxShadow = '';
     body.style.backgroundColor = '';
