@@ -52,6 +52,9 @@ My CAPSTONE project in Microverse.
   7. About section with a history of the summit
   8. Responsive design
 
+### Live Demo <a name="live-demo"></a>
+
+[Live Demo](https://2004-okari.github.io/CAPSTONE-01/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
