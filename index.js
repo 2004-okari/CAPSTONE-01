@@ -8,7 +8,6 @@ const closeButton = document.querySelector('#close-btn');
 const openButton = document.querySelector('#hamburg-open');
 const main = document.querySelector('main');
 
-if (window.innerWidth < 768) {
   const menuBar = () => {
     menu.style.display = 'none';
     navigation.style.boxShadow = 'none';
@@ -16,7 +15,7 @@ if (window.innerWidth < 768) {
     body.style.overflow = 'hidden';
     menuSec.style.display = 'block';
     menuSec.style.position = 'absolute';
-    menuSec.style.top = '200px';
+    menuSec.style.top = '160px';
     menuSec.style.left = '50%';
     menuSec.style.transform = 'translate(-50%, -50%)';
     main.style.visibility = 'hidden';
@@ -33,7 +32,6 @@ if (window.innerWidth < 768) {
   };
 
   closeButton.addEventListener('click', closeMenu);
-}
 
 // Section with featured speakers
 

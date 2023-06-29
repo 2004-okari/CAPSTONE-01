@@ -17,9 +17,9 @@ body {
     }
 
     .nav-bar {
+      position: absolute;
       width: 100%;
       height: 75px;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
       display: flex;
       align-items: center;
 
@@ -27,12 +27,16 @@ body {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        padding-left: 5%;
 
         #hamburg-open {
           font-size: 2em;
           color: #3e3e3e;
-          margin: 0 50% 0 13%;
           cursor: pointer;
+        }
+
+        .logo-icon {
+          visibility: hidden;
         }
       }
 
@@ -163,7 +167,7 @@ body {
           .seperate-line {
             width: 100px;
             height: 2px;
-            background-color: #a04038;
+            background-color: #EC5242;
           }
         }
 
@@ -192,7 +196,7 @@ body {
 
             .program-text {
               margin-right: 10px;
-              color: #ff5438;
+              color: #EC5242;
               font-size: 0.9em;
               text-align: start;
               font-weight: 900;
@@ -232,7 +236,7 @@ body {
           width: 100px;
           height: 2px;
           margin: 0 auto;
-          background-color: #a04038;
+          background-color: #EC5242;
           margin-top: 10px;
         }
       }
@@ -271,7 +275,7 @@ body {
 
             .presenter-position {
               font-size: 0.7em;
-              color: #f78c89;
+              color: #EC5242;
             }
 
             .presenter-description {
@@ -306,7 +310,7 @@ body {
         .seperate-line-2 {
           width: 100px;
           height: 2px;
-          background-color: #a04038;
+          background-color: #EC5242;
           margin-bottom: 40px;
         }
       }
@@ -326,22 +330,22 @@ body {
       }
     }
 
-    .section-5 {
-      .license {
-        width: 85%;
-        padding: 5% 0;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        gap: 5%;
-        justify-content: center;
-        align-items: center;
+  }
+  .section-5 {
+    .license {
+      width: 85%;
+      padding: 5% 0;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+      justify-content: center;
+      align-items: center;
 
-        .license-text {
-          font-size: 1em;
-          font-family: 'Lato', Arial, Helvetica, sans-serif;
-          color: #3b3e45;
-        }
+      .license-text {
+        font-size: 1em;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        color: #3b3e45;
       }
     }
   }
@@ -351,6 +355,7 @@ body {
   body {
     .header {
       .social-icons {
+        padding-right: 7%;
         background-color: #3e3e3e;
         height: 30px;
         display: flex;
@@ -367,6 +372,7 @@ body {
 
       .nav-bar {
         display: flex;
+        position: static;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -378,6 +384,10 @@ body {
 
           #hamburg-open {
             display: none;
+          }
+
+          .logo-icon {
+            visibility: visible;
           }
         }
 
@@ -406,7 +416,7 @@ body {
               }
 
               .ref-1 {
-                color: #f07f7e;
+                color: #EC5242;
               }
             }
           }
@@ -504,18 +514,18 @@ body {
         }
       }
 
-      .section-5 {
-        .license {
-          gap: 6%;
+    }
+    .section-5 {
+      .license {
+        gap: 6%;
 
-          .footer-image {
-            transform: scale(1.5);
-          }
+        .footer-image {
+          transform: scale(1.5);
+        }
 
-          .license-text {
-            .text-1 {
-              font-size: 1.2em;
-            }
+        .license-text {
+          .text-1 {
+            font-size: 1.2em;
           }
         }
       }
