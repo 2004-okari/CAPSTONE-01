@@ -8,30 +8,30 @@ const closeButton = document.querySelector('#close-btn');
 const openButton = document.querySelector('#hamburg-open');
 const main = document.querySelector('main');
 
-  const menuBar = () => {
-    menu.style.display = 'none';
-    navigation.style.boxShadow = 'none';
-    body.style.backgroundColor = '#F07F7E';
-    body.style.overflow = 'hidden';
-    menuSec.style.display = 'block';
-    menuSec.style.position = 'absolute';
-    menuSec.style.top = '160px';
-    menuSec.style.left = '50%';
-    menuSec.style.transform = 'translate(-50%, -50%)';
-    main.style.visibility = 'hidden';
-  };
-  openButton.addEventListener('click', menuBar);
+const menuBar = () => {
+  menu.style.display = 'none';
+  navigation.style.boxShadow = 'none';
+  body.style.backgroundColor = '#F07F7E';
+  body.style.overflow = 'hidden';
+  menuSec.style.display = 'block';
+  menuSec.style.position = 'absolute';
+  menuSec.style.top = '160px';
+  menuSec.style.left = '50%';
+  menuSec.style.transform = 'translate(-50%, -50%)';
+  main.style.visibility = 'hidden';
+};
+openButton.addEventListener('click', menuBar);
 
-  const closeMenu = () => {
-    body.style.overflow = '';
-    menu.style.display = '';
-    navigation.style.boxShadow = '';
-    body.style.backgroundColor = '';
-    menuSec.style.display = '';
-    main.style.visibility = '';
-  };
+const closeMenu = () => {
+  body.style.overflow = '';
+  menu.style.display = '';
+  navigation.style.boxShadow = '';
+  body.style.backgroundColor = '';
+  menuSec.style.display = '';
+  main.style.visibility = '';
+};
 
-  closeButton.addEventListener('click', closeMenu);
+closeButton.addEventListener('click', closeMenu);
 
 // Section with featured speakers
 

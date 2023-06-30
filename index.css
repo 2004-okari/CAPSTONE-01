@@ -507,10 +507,34 @@ body {
 
       .section-3 {
         .sec-3-container {
-          width: 90%;
-          margin: 30px auto;
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(368px, 1fr));
+          margin: 30px 0;
+          display: flex;
+          gap: 15px;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          .sec-3-presenter {
+            width: 500px;
+            margin: 0;
+            .presenter-img {
+              .presenter-1 {
+                width: 160px;
+                height: 160px;
+              }
+            }
+            .presenter-text {
+              .presenter-name {
+                font-size: 1.2em;
+              }
+              .presenter-position {
+                font-size: 0.9em;
+              }
+              .presenter-description {
+                font-size: 0.9em;
+              }
+            }
+          }
         }
       }
 
