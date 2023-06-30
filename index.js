@@ -92,3 +92,24 @@ presenters.forEach(() => {
   `;
   document.querySelector('.sec-3-container').appendChild(sectionPresenter);
 });
+
+
+const presenter1 = document.querySelector('.sec-3-presenter:nth-of-type(3)');
+const presenter2 = document.querySelector('.sec-3-presenter:nth-of-type(4)');
+const presenter3 = document.querySelector('.sec-3-presenter:nth-of-type(5)');
+const presenter4 = document.querySelector('.sec-3-presenter:nth-of-type(6)');
+const section5 = document.querySelector('.section-5');
+const section4 = document.querySelector('.section-4');
+const more = document.querySelector('.see-more');
+
+const reveal = () => {
+  section5.style.display = 'flex';
+  section4.style.display = 'flex';
+  presenter1.style.display = 'flex';
+  presenter2.style.display = 'flex';
+  presenter3.style.display = 'flex';
+  presenter4.style.display = 'flex';
+  more.style.display = 'none';
+}
+
+more.addEventListener('click', reveal);
