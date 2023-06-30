@@ -167,7 +167,7 @@ body {
           .seperate-line {
             width: 100px;
             height: 2px;
-            background-color: #EC5242;
+            background-color: #ec5242;
           }
         }
 
@@ -196,7 +196,7 @@ body {
 
             .program-text {
               margin-right: 10px;
-              color: #EC5242;
+              color: #ec5242;
               font-size: 0.9em;
               text-align: start;
               font-weight: 900;
@@ -236,7 +236,7 @@ body {
           width: 100px;
           height: 2px;
           margin: 0 auto;
-          background-color: #EC5242;
+          background-color: #ec5242;
           margin-top: 10px;
         }
       }
@@ -275,7 +275,7 @@ body {
 
             .presenter-position {
               font-size: 0.7em;
-              color: #EC5242;
+              color: #ec5242;
             }
 
             .presenter-description {
@@ -310,7 +310,7 @@ body {
         .seperate-line-2 {
           width: 100px;
           height: 2px;
-          background-color: #EC5242;
+          background-color: #ec5242;
           margin-bottom: 40px;
         }
       }
@@ -329,8 +329,8 @@ body {
         }
       }
     }
-
   }
+
   .section-5 {
     .license {
       width: 85%;
@@ -416,7 +416,7 @@ body {
               }
 
               .ref-1 {
-                color: #EC5242;
+                color: #ec5242;
               }
             }
           }
@@ -514,22 +514,27 @@ body {
           flex-direction: row;
           justify-content: center;
           align-items: center;
+
           .sec-3-presenter {
             width: 500px;
             margin: 0;
+
             .presenter-img {
               .presenter-1 {
                 width: 160px;
                 height: 160px;
               }
             }
+
             .presenter-text {
               .presenter-name {
                 font-size: 1.2em;
               }
+
               .presenter-position {
                 font-size: 0.9em;
               }
+
               .presenter-description {
                 font-size: 0.9em;
               }
@@ -537,8 +542,8 @@ body {
           }
         }
       }
-
     }
+
     .section-5 {
       .license {
         gap: 6%;
