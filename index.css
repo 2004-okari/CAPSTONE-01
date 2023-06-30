@@ -507,7 +507,7 @@ body {
 
       .section-3 {
         .sec-3-container {
-          margin: 30px 0;
+          margin: 30px 8%;
           display: flex;
           gap: 15px;
           flex-wrap: wrap;
