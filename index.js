@@ -99,7 +99,7 @@ const presenter2 = document.querySelector('.sec-3-presenter:nth-of-type(4)');
 const presenter3 = document.querySelector('.sec-3-presenter:nth-of-type(5)');
 const presenter4 = document.querySelector('.sec-3-presenter:nth-of-type(6)');
 const section5 = document.querySelector('.section-5');
-const section4 = document.querySelector('.container');
+const section4 = document.querySelector('.section-4');
 const more = document.querySelector('.see-more');
 
 

@@ -243,7 +243,7 @@ body {
 
       .sec-3-container {
         .sec-3-presenter {
-          margin: 0 auto;
+          margin: 10px auto;
           &:nth-of-type(1),
           &:nth-of-type(2) {
 
@@ -307,8 +307,9 @@ body {
 
     .section-4 {
       background-color: #414246;
+      display: none;
       .container {
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -549,7 +550,7 @@ body {
         .sec-3-container {
           margin: 30px 8%;
           display: flex;
-          gap: 15px;
+          gap: 10px;
           flex-wrap: wrap;
           flex-direction: row;
           justify-content: center;
@@ -590,14 +591,13 @@ body {
           }
         }
       }
+      .section-4 {
+        display: block;
+        
+      }
     }
 
     
-    .section-4 {
-      .container {
-        display: flex;
-      }
-    }
 
     .section-5 {
       display: inline;
