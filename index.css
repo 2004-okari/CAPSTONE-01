@@ -244,18 +244,18 @@ body {
       .sec-3-container {
         .sec-3-presenter {
           margin: 10px auto;
+
           &:nth-of-type(1),
           &:nth-of-type(2) {
-
             width: 368px;
-            padding: 10 3px;
+            padding: 4px 3px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
             box-shadow:
-            rgba(60, 64, 67, 0.3) 0 1px 2px 0,
-            rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+              rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+              rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
           }
 
           &:nth-of-type(3),
@@ -269,10 +269,10 @@ body {
             justify-content: space-between;
             align-items: flex-start;
             box-shadow:
-            rgba(60, 64, 67, 0.3) 0 1px 2px 0,
-            rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+              rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+              rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
           }
-            
+
           .presenter-img {
             margin-right: 6px;
 
@@ -308,6 +308,7 @@ body {
     .section-4 {
       background-color: #414246;
       display: none;
+
       .container {
         display: flex;
         flex-direction: column;
@@ -320,14 +321,14 @@ body {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          
+
           .patner-title {
             color: #fff;
             font-size: 1.9em;
             font-family: 'Lato', Arial, Helvetica, sans-serif;
             margin-bottom: 10px;
           }
-          
+
           .seperate-line-2 {
             width: 100px;
             height: 2px;
@@ -335,7 +336,7 @@ body {
             margin-bottom: 40px;
           }
         }
-        
+
         .sponsors {
           width: 90%;
           display: flex;
@@ -344,7 +345,7 @@ body {
           align-items: center;
           flex-wrap: wrap;
           margin-bottom: 50px;
-          
+
           .company-logos {
             height: 50px;
           }
@@ -352,9 +353,10 @@ body {
       }
     }
   }
-    
-    .section-5 {
-      display: none;
+
+  .section-5 {
+    display: none;
+
     .license {
       width: 85%;
       padding: 5% 0;
@@ -377,6 +379,7 @@ body {
     display: grid;
     margin-bottom: 20px;
     place-items: center;
+
     .see-more {
       cursor: pointer;
       margin: 0 auto;
@@ -384,10 +387,9 @@ body {
       width: 356px;
       height: 38px;
       border-radius: 4px;
-      border: 1px solid #DCDCDC;
-      box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-      color: #282b32;    
-
+      border: 1px solid #dcdcdc;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+      color: #282b32;
     }
   }
 }
@@ -562,8 +564,7 @@ body {
             &:nth-of-type(3),
             &:nth-of-type(4),
             &:nth-of-type(5),
-            &:nth-of-type(6)
-             {
+            &:nth-of-type(6) {
               width: 500px;
               display: flex;
             }
@@ -591,16 +592,15 @@ body {
           }
         }
       }
+
       .section-4 {
         display: block;
-        
       }
     }
 
-    
-
     .section-5 {
       display: inline;
+
       .license {
         gap: 6%;
 
